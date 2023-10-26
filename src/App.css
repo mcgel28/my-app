@@ -1,0 +1,309 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    color: black;
+}
+
+/* Navigation Section */
+#navigation-section {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.719);
+    backdrop-filter: blur(5px);
+    z-index: 1;
+}
+
+.navigation {
+    padding: 20px;
+}
+
+.logo {
+    width: 150px;
+    filter: brightness(250%)
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    font-weight: bold;
+    display: inline-block;
+    margin: 10px 20px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;   
+}
+
+
+/*Header Section*/
+#header-section {
+    background-image: url(./images/backgroundImage.jpg);
+    width: 100%;
+    height: 100%;
+   
+}
+
+
+.container {
+    width: 80%;
+    height: 100%;
+    padding: 0 10%
+}
+
+
+
+
+
+.hero-text {
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.hero {
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    
+}
+
+.me {
+    width: 350px;
+    border-radius: 20%;
+}
+
+
+.icon-container {
+    margin: 20px;
+
+    display: flex;
+}
+
+.icon-container .icon {
+    margin: 20px;
+}
+
+.icon-container a {
+    color: aliceblue;
+}
+
+
+/* About Section */
+#about-section {
+    background-image: url(./images/whiteGeometricBg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about {
+    margin: 100px 0 100px 0;
+    height: 80%;
+    display: inline-flex;
+
+
+}
+
+.me2 {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.about-text {
+    margin-left: 100px;
+    font-size: 20px;
+    text-align: justify;
+    justify-content: center;
+    color: rgb(49, 49, 49);
+    
+}
+
+.about-text p {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.about-row {
+    width: 100%;
+    margin-top: 50px;
+    display: inline-flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.about-row li {
+    margin-top: 20px;
+}
+
+.about-row-1 {
+    flex-basis: 50%;
+}
+
+.about-row-2 {
+    flex-basis: 50%;
+}
+
+/* Tech Stack Section */
+#tech-stack {
+    background-image: url(./images/backgroundImage.jpg);
+    padding: 50px 0 50px 0;
+    height: 100%;
+    width: 100%;
+}
+
+.tech-img {
+    display: flex;
+    justify-content: center;
+}
+
+.tech-img ul p {
+    text-align: center;
+    font-weight: bold;
+    color:aliceblue;
+}
+
+.tech {
+    width: 100px;
+    margin: 0 50px;
+}
+
+/* Portfolio Section */
+#portfolio-section {
+    background-image: url(./images/whiteBackground.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    
+}
+
+.portfolio {
+    padding: 50px;
+}
+
+.port-title {
+    padding: 50px;  
+    text-align: center;
+    
+}
+
+.port-row-1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.port-row-2 {
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.portfolio-img {
+    border-radius: 10px;
+    border: 5px;
+    height: 350px;
+    width: 350px;
+}
+
+/* Contact Section */
+#contact-section {
+    background-image: url(./images/backgroundImage.jpg);
+    height: 100%;
+    width: 100%;
+}
+
+.contact{
+    display: flex;
+}
+
+
+.contact-title {
+    padding-top: 50px;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    color: aliceblue;
+}
+
+.handcoding {
+    margin: 20px;
+    width: 500px;
+}
+
+.input-info {
+    margin: 50px;
+}
+
+.input-info input {
+    height: 30px;
+    width: 400px;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid darkgray;
+    border-radius: 7px;
+    font-size: 15px;
+}
+
+
+.input-info textarea {
+    height: 200px;
+    width: 400px;
+    margin: 10px;
+    padding: 5px;
+    font-size: 15px;
+    border: 2px solid darkgray;
+    border-radius: 7px;
+    
+}
+
+.button-container {
+    width: 100%;
+    text-align: center;
+   
+}
+
+.contact-button {
+    border: 2px solid darkgray;
+    border-radius: 10px;
+    padding: 10px 30px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Footer Section */
+#footer-section {
+    width: 100%;
+    background-image: url(./images/geometricBackground.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 200px;
+}
+
+.footer {
+    display: flex;
+    height: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  
+}
