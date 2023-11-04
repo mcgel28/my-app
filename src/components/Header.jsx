@@ -6,6 +6,7 @@ import { IoLogoLinkedin } from "react-icons/io";
 import { IoLogoGithub } from "react-icons/io";
 import '../App.css'
 import TypingEffect from "../redux/TypingEffect";
+import { Link, Element } from 'react-scroll';
 
 
 
@@ -18,10 +19,10 @@ function Header() {
                         <nav className="navigation">
                             <img className="logo" src={logo} alt="logo.png"/>
                                 <ul className="menu">
-                                    <li><a href="#home">Home</a></li>
-                                    <li><a href="#about">About</a></li>
-                                    <li><a href="#portfolio">Portfolio</a></li>
-                                    <li><a href="#contact">Contact</a></li>
+                                    <li><Link to="header-section" smooth={true} duration={500}>Home</Link></li>
+                                    <li><Link to="about-section" smooth={true} duration={500}>About</Link></li>
+                                    <li><Link to="portfolio-section" smooth={true} duration={500}>Portfolio</Link></li>
+                                    <li><Link to="contact-section" smooth={true} duration={500}>Contact</Link></li>
                                 </ul>
                         </nav>
                     </div>
