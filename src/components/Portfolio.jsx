@@ -11,9 +11,9 @@ function Portfolio() {
                <h1 className="port-title">Portfolio</h1>
                 <div className="port-row-1">
                     <div className="portoflio-col-1" >
-                        <a href="https://mcgel28.github.io/rent-moto/">
-                        <img className="portfolio-img"  src={rentmoto2} alt="rent motorcycle" />
-                        </a>
+                        
+                        <img className="portfolio-img" href="https://mcgel28.github.io/rent-moto/" src={rentmoto2} alt="rent motorcycle" />
+                       
                     </div>
                     <div className="portoflio-col-2" >
                         <a href="#">
